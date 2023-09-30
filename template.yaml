@@ -21,6 +21,8 @@ proxies:
   - {name: "☁️ CFWarp-B",type: wireguard,server: @A2,port: @B2,ip: 172.16.0.2,private-key: @C,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
   - {name: "☁️ CFWarp-C",type: wireguard,server: @A3,port: @B3,ip: 172.16.0.2,private-key: @C,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
   - {name: "☁️ CFWarp-D",type: wireguard,server: @A4,port: @B4,ip: 172.16.0.2,private-key: @C,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
+  - {name: "☁️ CFWarp-E",type: wireguard,server: @A5,port: @B5,ip: 172.16.0.2,private-key: @C,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
